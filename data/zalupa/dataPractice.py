@@ -12,7 +12,7 @@ def delitel():
 
 
 # Указываем путь к файлу Excel
-file_path = '/Users/mihail/Desktop/data/zalupa/student_data.xlsx' # Будет необходимо вставить свой путь к файлу( правой кнопкой на файл, copy path, копируем полный путь)
+file_path = '/Users/mihail/Desktop/huina/labs/data/zalupa/data/student_data.xlsx'  # Будет необходимо вставить свой путь к файлу( правой кнопкой на файл, copy path, копируем полный путь)
 
 # Читаем файл и загружаем данные в переменную 'df'
 df = pd.read_excel(file_path)
